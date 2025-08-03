@@ -80,7 +80,7 @@ API runs at: `http://localhost:5000`
 ```bash
 POST /api/auth/register
 {
-  "username": "johndoe",
+  "name": "johndoe",
   "email": "john@example.com",
   "password": "password123"
 }
@@ -92,8 +92,7 @@ POST /api/blogs
 Authorization: Bearer <jwt_token>
 {
   "title": "My Blog Post",
-  "content": "Blog content here...",
-  "excerpt": "Short description"
+  "content": "Blog content here..."
 }
 ```
 
