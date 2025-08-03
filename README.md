@@ -2,11 +2,6 @@
 
 A Node.js REST API backend for the BlogHub blogging platform built with Express.js, MongoDB, and JWT authentication.
 
-## 🚀 Live Demo
-
-**Backend API:** [Your Deployed Backend URL]  
-**Frontend App:** [Your Frontend URL]
-
 ## 📋 Features
 
 - ✅ JWT-based Authentication (Register, Login, Logout)
