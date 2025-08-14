@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: 'https://blog-hub-frontend-wj1y.vercel.app',
+  origin: '*',
   credentials: true,
 }));
 app.use(express.json());
