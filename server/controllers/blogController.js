@@ -3,7 +3,9 @@ const Blog = require('../models/Blog');
 
 exports.getAllBlogs = async (req, res) =>{
     try {
+        console.log("getAllBlogs req",req.body);
         const blogs = await Blog.find().populate('author','name email').sort({createdAt:-1});
+        console.log("blogs",blogs);
         res.json(blogs);
     } catch (error) {
         res.status(500).json({error:error.message})
